@@ -110,22 +110,22 @@ button{
 }
 
 /*active states*/
-li:hover a{
+a:hover {
     color: var(--SoftRed);
 }
 
-.section3:hover button{
+button:hover {
     background-color: var(--VeryDarkBlue);
     color: var(--offWhite);
     cursor: pointer;
 }
 
-.container1:hover h2 {
+h2:hover  {
     color: var(--SoftOrange);
     cursor: pointer;
 }
 
-.section5:hover h3 {
+h3:hover  {
     color: var(--SoftRed);
     cursor: pointer;
 }
@@ -338,6 +338,7 @@ li:hover a{
         grid-template-rows: repeat(2, 1fr);
         gap: 30px;
         margin-top: 50px;
+        padding: 10px 20px;
     }
 
     .section1{
@@ -348,6 +349,7 @@ li:hover a{
     .section2{
         grid-row: 3 /  3;
         grid-column: 1 /  3;
+        padding: 20px;
         
     }
 
