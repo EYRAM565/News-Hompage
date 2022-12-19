@@ -328,7 +328,8 @@ li:hover a{
     .list{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
+       
     }
 
     main{
@@ -395,30 +396,36 @@ li:hover a{
 
 
 
-    .section5{
+     .section5{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         grid-column: 1 / 7;
         grid-row: 5 / 7;
     }
 
-    .section5 .foo{
-
-        gap: 20px;
+  .section5 .foo{
+       align-items: center;
+        justify-content: center;
+        gap: 10px;
 
         
-    }
+    }     
 
+   
     .section5 .foo span{
         font-size: 3rem;
-        padding-bottom: 20px;
+       
     }
 
     .section5 .foo h3{
         padding: 20px 0;
     }
-
+    
+    .span p {
+        font-size: 1rem;
+        line-height: 30px;
+    }
    
 }
